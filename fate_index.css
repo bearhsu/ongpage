@@ -1,0 +1,34 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+.p01{
+    background-image:url("fate_go.png");
+	background-size:cover;
+	height:100vh; 
+}
+
+.nav{
+	background-color: #333;
+    position: fixed;
+	width : 100vw;
+	height:10vh;
+	display: flex;
+}
+
+.nav >div{
+
+	color: white;
+	float:left;
+	cursor:pointer;
+	/*填滿*/
+	width : 100vw;
+	/*文字垂直水平置中*/
+	line-height:10vh;
+	text-align:center;
+}
+
+.nav >div:hover{
+	background-color: #111;
+}
